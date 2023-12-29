@@ -1,0 +1,9 @@
+helper_route_admin:
+    resource: "@HelperBundle/src/Controller/Admin/*"
+    type: annotation
+    prefix: /admin/shurikeninja//helper
+
+helper_route:
+    resource: "@HelperBundle/src/Controller/*"
+    type: annotation
+    prefix: /shurikeninja/helper

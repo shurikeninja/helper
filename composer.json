@@ -1,0 +1,28 @@
+{
+  "name":"shurikeninja/helper",
+  "description":"ShurikeNinja Helper Bundle",
+  "keywords":[
+    "bundle", "tool", "shurikeninja"
+  ],
+  "homepage":"https://github.com/shurikeninja/helper",
+  "license":"MIT",
+  "authors":[
+    {
+      "name":"Nguyen Hoang Anh",
+      "email":"hoanghuynh1998@gmail.com",
+      "role":"Author"
+    }
+  ],
+  "require":{
+    "pimcore":">=11.0",
+  },
+  "require-dev":{
+  },
+  "suggest":{
+  },
+  "autoload": {
+    "psr-4": {
+      "ShurikeNinja\\HelperBundle\\": "src/"
+    }
+  }
+}
